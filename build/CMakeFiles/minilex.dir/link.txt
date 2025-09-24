@@ -1,0 +1,1 @@
+/usr/bin/gcc CMakeFiles/minilex.dir/src/lexer.c.o CMakeFiles/minilex.dir/src/main.c.o CMakeFiles/minilex.dir/src/tokens.c.o -o /home/zhangyoung/Projects/minilex/target/minilex 
