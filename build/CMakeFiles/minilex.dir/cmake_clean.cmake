@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zhangyoung/Projects/minilex/target/minilex"
-  "/home/zhangyoung/Projects/minilex/target/minilex.pdb"
+  "/root/minilex/target/minilex"
+  "/root/minilex/target/minilex.pdb"
   "CMakeFiles/minilex.dir/src/lexer.c.o"
   "CMakeFiles/minilex.dir/src/lexer.c.o.d"
   "CMakeFiles/minilex.dir/src/main.c.o"

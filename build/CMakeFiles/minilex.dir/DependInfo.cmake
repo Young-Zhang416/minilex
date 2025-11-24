@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zhangyoung/Projects/minilex/src/lexer.c" "CMakeFiles/minilex.dir/src/lexer.c.o" "gcc" "CMakeFiles/minilex.dir/src/lexer.c.o.d"
-  "/home/zhangyoung/Projects/minilex/src/main.c" "CMakeFiles/minilex.dir/src/main.c.o" "gcc" "CMakeFiles/minilex.dir/src/main.c.o.d"
-  "/home/zhangyoung/Projects/minilex/src/tokens.c" "CMakeFiles/minilex.dir/src/tokens.c.o" "gcc" "CMakeFiles/minilex.dir/src/tokens.c.o.d"
+  "/root/minilex/src/lexer.c" "CMakeFiles/minilex.dir/src/lexer.c.o" "gcc" "CMakeFiles/minilex.dir/src/lexer.c.o.d"
+  "/root/minilex/src/main.c" "CMakeFiles/minilex.dir/src/main.c.o" "gcc" "CMakeFiles/minilex.dir/src/main.c.o.d"
+  "/root/minilex/src/tokens.c" "CMakeFiles/minilex.dir/src/tokens.c.o" "gcc" "CMakeFiles/minilex.dir/src/tokens.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

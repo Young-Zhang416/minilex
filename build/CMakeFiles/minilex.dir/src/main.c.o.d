@@ -1,6 +1,5 @@
-CMakeFiles/minilex.dir/src/main.c.o: \
- /home/zhangyoung/Projects/minilex/src/main.c /usr/include/stdc-predef.h \
- /usr/include/stdio.h \
+CMakeFiles/minilex.dir/src/main.c.o: /root/minilex/src/main.c \
+ /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -49,4 +48,4 @@ CMakeFiles/minilex.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/zhangyoung/Projects/minilex/include/lexer.h
+ /root/minilex/include/lexer.h

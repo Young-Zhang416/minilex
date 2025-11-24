@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhangyoung/Projects/minilex
+CMAKE_SOURCE_DIR = /root/minilex
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhangyoung/Projects/minilex/build
+CMAKE_BINARY_DIR = /root/minilex/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/minilex.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/minilex.dir/progress.make
 include CMakeFiles/minilex.dir/flags.make
 
 CMakeFiles/minilex.dir/src/lexer.c.o: CMakeFiles/minilex.dir/flags.make
-CMakeFiles/minilex.dir/src/lexer.c.o: /home/zhangyoung/Projects/minilex/src/lexer.c
+CMakeFiles/minilex.dir/src/lexer.c.o: /root/minilex/src/lexer.c
 CMakeFiles/minilex.dir/src/lexer.c.o: CMakeFiles/minilex.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zhangyoung/Projects/minilex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/minilex.dir/src/lexer.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minilex.dir/src/lexer.c.o -MF CMakeFiles/minilex.dir/src/lexer.c.o.d -o CMakeFiles/minilex.dir/src/lexer.c.o -c /home/zhangyoung/Projects/minilex/src/lexer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/minilex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/minilex.dir/src/lexer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minilex.dir/src/lexer.c.o -MF CMakeFiles/minilex.dir/src/lexer.c.o.d -o CMakeFiles/minilex.dir/src/lexer.c.o -c /root/minilex/src/lexer.c
 
 CMakeFiles/minilex.dir/src/lexer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/minilex.dir/src/lexer.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhangyoung/Projects/minilex/src/lexer.c > CMakeFiles/minilex.dir/src/lexer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/minilex/src/lexer.c > CMakeFiles/minilex.dir/src/lexer.c.i
 
 CMakeFiles/minilex.dir/src/lexer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/minilex.dir/src/lexer.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhangyoung/Projects/minilex/src/lexer.c -o CMakeFiles/minilex.dir/src/lexer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/minilex/src/lexer.c -o CMakeFiles/minilex.dir/src/lexer.c.s
 
 CMakeFiles/minilex.dir/src/main.c.o: CMakeFiles/minilex.dir/flags.make
-CMakeFiles/minilex.dir/src/main.c.o: /home/zhangyoung/Projects/minilex/src/main.c
+CMakeFiles/minilex.dir/src/main.c.o: /root/minilex/src/main.c
 CMakeFiles/minilex.dir/src/main.c.o: CMakeFiles/minilex.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zhangyoung/Projects/minilex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/minilex.dir/src/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minilex.dir/src/main.c.o -MF CMakeFiles/minilex.dir/src/main.c.o.d -o CMakeFiles/minilex.dir/src/main.c.o -c /home/zhangyoung/Projects/minilex/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/minilex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/minilex.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minilex.dir/src/main.c.o -MF CMakeFiles/minilex.dir/src/main.c.o.d -o CMakeFiles/minilex.dir/src/main.c.o -c /root/minilex/src/main.c
 
 CMakeFiles/minilex.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/minilex.dir/src/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhangyoung/Projects/minilex/src/main.c > CMakeFiles/minilex.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/minilex/src/main.c > CMakeFiles/minilex.dir/src/main.c.i
 
 CMakeFiles/minilex.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/minilex.dir/src/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhangyoung/Projects/minilex/src/main.c -o CMakeFiles/minilex.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/minilex/src/main.c -o CMakeFiles/minilex.dir/src/main.c.s
 
 CMakeFiles/minilex.dir/src/tokens.c.o: CMakeFiles/minilex.dir/flags.make
-CMakeFiles/minilex.dir/src/tokens.c.o: /home/zhangyoung/Projects/minilex/src/tokens.c
+CMakeFiles/minilex.dir/src/tokens.c.o: /root/minilex/src/tokens.c
 CMakeFiles/minilex.dir/src/tokens.c.o: CMakeFiles/minilex.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zhangyoung/Projects/minilex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/minilex.dir/src/tokens.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minilex.dir/src/tokens.c.o -MF CMakeFiles/minilex.dir/src/tokens.c.o.d -o CMakeFiles/minilex.dir/src/tokens.c.o -c /home/zhangyoung/Projects/minilex/src/tokens.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/minilex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/minilex.dir/src/tokens.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minilex.dir/src/tokens.c.o -MF CMakeFiles/minilex.dir/src/tokens.c.o.d -o CMakeFiles/minilex.dir/src/tokens.c.o -c /root/minilex/src/tokens.c
 
 CMakeFiles/minilex.dir/src/tokens.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/minilex.dir/src/tokens.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhangyoung/Projects/minilex/src/tokens.c > CMakeFiles/minilex.dir/src/tokens.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/minilex/src/tokens.c > CMakeFiles/minilex.dir/src/tokens.c.i
 
 CMakeFiles/minilex.dir/src/tokens.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/minilex.dir/src/tokens.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhangyoung/Projects/minilex/src/tokens.c -o CMakeFiles/minilex.dir/src/tokens.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/minilex/src/tokens.c -o CMakeFiles/minilex.dir/src/tokens.c.s
 
 # Object files for target minilex
 minilex_OBJECTS = \
@@ -120,16 +120,16 @@ minilex_OBJECTS = \
 # External object files for target minilex
 minilex_EXTERNAL_OBJECTS =
 
-/home/zhangyoung/Projects/minilex/target/minilex: CMakeFiles/minilex.dir/src/lexer.c.o
-/home/zhangyoung/Projects/minilex/target/minilex: CMakeFiles/minilex.dir/src/main.c.o
-/home/zhangyoung/Projects/minilex/target/minilex: CMakeFiles/minilex.dir/src/tokens.c.o
-/home/zhangyoung/Projects/minilex/target/minilex: CMakeFiles/minilex.dir/build.make
-/home/zhangyoung/Projects/minilex/target/minilex: CMakeFiles/minilex.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zhangyoung/Projects/minilex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable /home/zhangyoung/Projects/minilex/target/minilex"
+/root/minilex/target/minilex: CMakeFiles/minilex.dir/src/lexer.c.o
+/root/minilex/target/minilex: CMakeFiles/minilex.dir/src/main.c.o
+/root/minilex/target/minilex: CMakeFiles/minilex.dir/src/tokens.c.o
+/root/minilex/target/minilex: CMakeFiles/minilex.dir/build.make
+/root/minilex/target/minilex: CMakeFiles/minilex.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/minilex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable /root/minilex/target/minilex"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minilex.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/minilex.dir/build: /home/zhangyoung/Projects/minilex/target/minilex
+CMakeFiles/minilex.dir/build: /root/minilex/target/minilex
 .PHONY : CMakeFiles/minilex.dir/build
 
 CMakeFiles/minilex.dir/clean:
@@ -137,6 +137,6 @@ CMakeFiles/minilex.dir/clean:
 .PHONY : CMakeFiles/minilex.dir/clean
 
 CMakeFiles/minilex.dir/depend:
-	cd /home/zhangyoung/Projects/minilex/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhangyoung/Projects/minilex /home/zhangyoung/Projects/minilex /home/zhangyoung/Projects/minilex/build /home/zhangyoung/Projects/minilex/build /home/zhangyoung/Projects/minilex/build/CMakeFiles/minilex.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /root/minilex/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/minilex /root/minilex /root/minilex/build /root/minilex/build /root/minilex/build/CMakeFiles/minilex.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/minilex.dir/depend
 

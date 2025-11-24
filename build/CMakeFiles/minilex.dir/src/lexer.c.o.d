@@ -1,6 +1,5 @@
-CMakeFiles/minilex.dir/src/lexer.c.o: \
- /home/zhangyoung/Projects/minilex/src/lexer.c /usr/include/stdc-predef.h \
- /usr/include/stdio.h \
+CMakeFiles/minilex.dir/src/lexer.c.o: /root/minilex/src/lexer.c \
+ /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -56,5 +55,4 @@ CMakeFiles/minilex.dir/src/lexer.c.o: \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /home/zhangyoung/Projects/minilex/include/tokens.h \
- /home/zhangyoung/Projects/minilex/include/lexer.h
+ /root/minilex/include/tokens.h /root/minilex/include/lexer.h

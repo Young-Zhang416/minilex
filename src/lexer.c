@@ -246,6 +246,8 @@ int lexer_run(const char* filename) {
         fprintf(stderr, "Error opening source file: %s\n", filename);
         return 1;
     }
+    char* dot = strchr(filename, '.');
+    *dot = '\0'; // Remove extension for output files
 
     snprintf(dyd_filename, sizeof(dyd_filename), "%s.dyd", filename);
     snprintf(err_filename, sizeof(err_filename), "%s.err", filename);

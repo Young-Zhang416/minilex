@@ -19,6 +19,7 @@ x 10
 0 11
 then 5
 EOLN 24
+y 10
 := 20
 x 10
 * 19
@@ -27,5 +28,5 @@ x 10
 EOLN 24
 else 6
 EOLN 24
-end 2
+edn 10
 EOF 25
