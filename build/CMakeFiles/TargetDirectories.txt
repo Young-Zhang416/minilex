@@ -1,3 +1,0 @@
-/root/minilex/build/CMakeFiles/minilex.dir
-/root/minilex/build/CMakeFiles/edit_cache.dir
-/root/minilex/build/CMakeFiles/rebuild_cache.dir
